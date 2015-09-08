@@ -1,0 +1,110 @@
+body
+{
+  background-color: White;
+  margin:0;  
+  padding:0;
+}
+
+
+#StartField
+{
+	background-image: url(img/Star_Page_BKG.png);
+	background-repeat: no-repeat;
+	border: 4px groove #C0C0C0;
+	display: block;
+	width: 601px;
+	height: 401px;
+}
+#game_box
+{
+	margin-left: 0px;
+	margin-top: 10px;	
+}
+.LeftCol , .RigthCol
+{
+	vertical-align: top;
+}
+.LeftCol
+{
+  width: 150px;
+  text-align:left;  
+}
+.RigthCol
+{
+  width: 610px;
+  vertical-align: middle;
+}
+.Btn1 , .Btn2 , .Btn3
+{
+  position: absolute;
+  cursor:pointer;
+}
+.Btn1
+{
+   left: 400px;
+   top: 240px;
+}
+
+.Btn2
+{
+   left: 400px;
+   top: 280px;
+}
+.Btn3
+{
+   left: 400px;
+   top: 320px;
+}
+#goTo1,#goTo2,#goToM
+{
+  position: absolute;
+  width: 184px;
+  height: 43px;
+  border: medium;
+  display: block;
+  cursor:pointer;
+}
+#menuContainer
+{
+  vertical-align: bottom;
+  text-align: center;
+}
+#SnakeGame
+{
+   background-image: url(img/Star_Page_BKG.png);
+}
+.wellcomeTxt
+{
+    margin-left:50px;
+    font-size: medium;
+}
+.description
+{
+  padding-left: 10px;
+  font-size: medium;
+}
+#menuContainer2
+{
+	margin: 0px 0px 0px 0px;
+	border-style: none;
+	padding: 0px;
+	vertical-align: bottom;
+	text-align: left;	
+}
+
+#menuContainer2 a, #menuContainer2 a img
+{
+	border-style: none;
+	
+}
+
+a.menu
+{
+	display: block;
+	left: 0px;
+	text-align: left;
+}
+
+.menu2
+{
+}

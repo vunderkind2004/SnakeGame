@@ -1,0 +1,114 @@
+#field
+{
+	background-image: url('img/Background.png');
+	margin: 0;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	border: 1px solid #000000;
+	width: 610px;
+	height: 410px;
+	display: block;
+	padding: 0px;
+}
+.element, #apple, .element2, .stone
+{
+	border: 1px solid #000000;
+	width:8px;
+	height:8px;
+	position:absolute;
+	background-color:Blue;
+	margin:2px;	
+}
+.life1, .life2 
+{
+	width:17px;
+	height:17px;
+	position:absolute;	
+	margin:2px;
+	top: -25px;	
+	background-image: url('img/Life_heart.png');
+	background-color:Transparent;
+	border:none;
+}
+#life1  
+{
+	left: 500px;
+}
+.element, .elementHead
+{
+	background-image: url('img/red.png');
+	background-color:Transparent;
+	border:none;	
+}
+.element2, .elementHead2
+{
+	background-image: url('img/green.png');
+	background-color:Transparent;
+	border:none;
+}
+.elementHead
+{	
+	z-index:2;
+}
+.elementHead2
+{
+	
+	z-index: 2;
+}
+#apple
+{
+	left:50px;
+	top:50px;
+	background-image: url('img/apple.png');
+	background-color:Transparent;
+	border:none;
+}
+.stone
+{
+	left:50px;
+	top:50px;
+	background-image: url('img/snake_body/Brown_Snake.png');
+	background-color:Transparent;
+	border:none;
+	z-index: 2;
+}
+
+#gameContainer
+{
+	border:none;
+	width: 310px;
+	height: 400px;
+	margin-left: 0px;
+	margin-top: 0px;
+
+}
+#score
+{
+	margin-left: 30px;
+	text-align:center;
+}
+
+#gameName
+{
+	text-align:center;
+}
+#gameOver
+{	
+	position:absolute;
+	z-index:4;	
+	text-align:center;
+	vertical-align:middle;
+}
+#gameOverOk
+{
+	margin:10px;
+}
+#controls
+{
+	margin:10px;
+	text-align:left;
+	vertical-align:middle;
+	width: 500px;
+}

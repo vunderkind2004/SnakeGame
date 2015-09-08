@@ -1,0 +1,44 @@
+.row
+{	
+}
+.for_photo
+{
+	padding:20px;
+}
+.text_column
+{
+	width:800px;
+	vertical-align:top;
+}
+
+.name
+{
+	margin: 5px;
+	padding-top: 10px;
+	font-size: x-large;
+	font-weight: bold;
+	font-style: normal;
+	text-align:center;
+	vertical-align:top;	
+}
+.occupation
+{
+	font-size:large;
+	font-weight: normal;
+	font-style: normal;
+	text-align:center;
+}
+.about
+{
+	text-align:justify;
+	
+}
+@font-face {
+    font-family: "Informal_Roman";
+    src: url(INFROMAN.TTF) format("truetype");
+}
+.text_column
+{
+	font-family: "Informal_Roman", Informal Roman;
+	font-size:x-large;	
+}
